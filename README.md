@@ -80,6 +80,8 @@ Engine • revision cdbeda788a
 Tools • Dart 3.0.6 • DevTools 2.23.1
 ```
 
+* Performance: in the current implementation, state data is saved directly to the user's device memory. This approach works due to the small data set used for this project. However, in a real-world scenario, it would be essential to implement a more efficient caching mechanism. This would involve storing the current state information in memory and, once the memory limit is reached, offloading additional states to a temporary file on the device's storage. This ensures optimal performance and efficient use of resources.
+
 ### Contact Info
 You can reach out to me at the following email: raphasauer@gmail.com
 

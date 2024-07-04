@@ -44,8 +44,8 @@ This project is a technical test for a job application at Tractian. The applicat
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/your-username/tractian_test_project.git](https://github.com/your-username/tractian_test_project.git)
-   cd tractian_test_project
+    git clone https://github.com/raphasauer/tractian_test_public.git
+    cd tractian_test_project
     ```
 
 2. **Install dependencies:**
